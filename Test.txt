@@ -1,1 +1,12 @@
-Hello
+git --version
+git help config
+mkdir Test
+cd Test
+git init  ---- it is to initialize empty git repository in currect directory
+git status
+git add Test.txt
+
+git config --global user.username sridhar-github2106
+git commit -m "commiting a text file"
+git remote add origin  https://github.com/sridhar-github2106/Demo.git
+git push origin master
